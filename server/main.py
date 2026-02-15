@@ -13,3 +13,7 @@ async def root():
         status_code=200,
         content=content
     )
+
+@app.get("/hello")
+async def hello():
+    return "Hello World"
