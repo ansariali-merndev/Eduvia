@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database / SQLite (optional, agar local use kar rahe ho)
+*.db
+*.sqlite3
+
+# Dependency directories
+__pypackages__/
+
+# Python Bytecode
+*.pyc
+
+# Uvicorn / FastAPI specific (optional)
+*.pid
