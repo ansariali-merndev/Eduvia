@@ -1,0 +1,105 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+.venv/
+venv/
+env/
+ENV/
+
+# Flask
+
+instance/
+.webassets-cache
+
+# Environment variables
+
+.env
+.env.*
+
+# Database
+
+*.db
+*.sqlite3
+
+# Logs
+
+*.log
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Mac
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+
+# Testing / coverage
+
+.coverage
+coverage.xml
+htmlcov/
+
+# Distribution / packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Migrations (optional - if using Alembic/Flask-Migrate)
+
+migrations/versions/*.pyc
+migrations/versions/*.pyo
+
+# Node (if using React frontend inside same repo)
+
+node_modules/
+dist/
+build/
+
+# Uploaded files (important for your project)
+
+uploads/
+media/
+
+# Cache
+
+.cache/
+
+# Gunicorn
+
+gunicorn.log
+
+# Docker
+
+*.pid
+*.seed
+*.pid.lock
+
+# Jupyter Notebook
+
+.ipynb_checkpoints
+
+# Secrets
+
+secrets.json
+config.json
+
+# OS generated files
+
+*.swp
+*.swo
+.env
