@@ -16,6 +16,7 @@ import { useAuthContext } from "../context/AuthContext";
 import { api } from "../lib/axios";
 import { AxiosError } from "axios";
 import { handleAlert } from "../lib/swal";
+import { GeneratingModal } from "../components/block/Generatingmodal";
 
 type Subject = {
   id: number;
@@ -238,6 +239,7 @@ export const AIPlanner = () => {
   return (
     <div className="min-h-screen bg-gray-50/60 py-8">
       <div className="container mx-auto px-5">
+        <GeneratingModal isOpen={isLoading} />
         {/* Header */}
         <div className="mb-8">
           <div className="inline-flex items-center gap-2 bg-violet-50 border border-violet-200 rounded-full px-3 py-1 mb-3">
